@@ -1,0 +1,143 @@
+#water nivel1{
+    grid-column-start:3;
+}
+
+#poison nivel2{
+    grid-column-start:5;
+}
+
+
+#water nivel3{
+  grid-column-start: 1;
+  grid-column-end:4;
+}
+
+#water nivel4{
+  grid-column-start: 5;
+  grid-column-end:2;
+}
+
+#water nivel5{
+  grid-column-start: 1;
+  grid-column-end:-2;
+}
+
+#poison nivel6{
+    grid-column-start:-3;
+}
+
+#water nivel7{
+    grid-column-start: 2;
+  grid-column-end:span 2;
+  }
+
+#water nivel8{
+  grid-column-start: 1;
+  grid-column-end:span 5;
+  }
+
+#water nivel8{
+    grid-column-start:3;
+    grid-column-end: 6;
+}
+
+#water nivel9{
+    grid-column: 4/6;
+}
+
+#water nivel10{
+    grid-column:span 3/5
+}
+
+
+#water nivel11 {
+    grid-row-start:3;
+}
+
+#water nivel12{
+    grid-row-start:3;
+}
+
+#water nivel13{
+    grid-row:3/6;
+}
+
+#poison nivel14{
+    grid-row:5;
+    grid-column:2;
+}
+
+#water nivel15{
+    grid-column:2/6;
+    grid-row:1/6;
+}
+
+#water nivel16{
+    grid-area:1/2/4/6;
+}
+
+#water-2 nivel17{
+    grid-area:2/3/5/6;
+}
+
+#poison nivel18{
+    order:1;
+}
+
+#poison nivel19{
+    order:-1;
+}
+
+#garden nivel20{
+    display:grid;
+    grid-template-columns:50%;
+    grid-template-rows:20% 20% 20% 20% 20%;
+}
+
+#garden nivel21{
+    display:grid;
+    grid-template-columns:repeat(8,12.5%)
+    grid-template-rows:20% 20% 20% 20% 20%;
+}
+
+#garden nivel22{
+    display:grid;
+    grid-template-columns:100px 3em 40%;
+    grid-template-rows:20% 20% 20% 20% 20%;
+}
+
+#garden nivel23{
+    display:grid;
+    grid-template-columns:1fr 5fr;
+    grid-template-rows:20% 20% 20% 20% 20%;
+}
+
+#garden nivel24{
+    display:grid;
+    grid-template-columns:50px 1fr 1fr 1fr 50px;
+    grid-template-rows:20% 20% 20% 20% 20%;
+}
+
+
+#garden nivel25{
+    display:grid;
+    grid-template-columns:75px 3fr 2fr;
+    grid-template-rows:100%;
+}
+
+#garden nivel26{
+    display:grid;
+    grid-template-columns:20% 20% 20% 20% 20%;
+    grid-template-rows:50px 0fr 0fr;
+}
+
+#garden nivel27{
+    display:grid;
+    grid-template:60%/200px;
+}
+
+#garden nivel28{
+    display:grid;
+    grid-template:1fr 50px/20% 80%;
+}
+
