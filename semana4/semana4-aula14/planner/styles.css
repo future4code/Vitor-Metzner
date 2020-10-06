@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-image: url("Img/background.png"); 
+
+    
+}
+
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+body>h1 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+input {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+button {
+    box-sizing: c;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    height: 32px;
+    width: auto;
+    font-size: 14px;
+    border: none;
+    background: none;
+}
+
+button:hover {
+    border-bottom: 3px solid white;
+}
+
+#form-tarefas {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#days-wrapper {
+    width: 100vw;
+    padding: 9px;
+    height: auto;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#days-wrapper>.day-container {
+    align-self: baseline;
+}
+
+.day-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.day-container>p:first-of-type {
+    border-bottom: 3px solid white;
+
+}
+
+/* Tarefa */
+.taskcontainer {
+    font-size: 0.8rem;
+    width: 100%;
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: auto;
+    margin: 40px auto;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.205);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.nome {
+    margin-bottom: 25px;
+}
