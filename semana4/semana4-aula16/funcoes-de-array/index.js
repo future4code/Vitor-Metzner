@@ -1,5 +1,5 @@
 let arrDespesas = []
-imprimirDespesas(arrDespesas)
+imprimirDespesas(arrayDespesas)
 imprimirExtrato()
 
 function imprimirDespesas(despesas){
@@ -23,8 +23,8 @@ function adicionarDespesa(){
             tipo: tipoCtd.value,
             descricao: descricaoCtd.value,
         }
-        arrDespesas.push(novaDespesa)
-        console.log(arrDespesas)
+        arrayDespesas.push(novaDespesa)
+        console.log(arrayDespesas)
         
         valorCdt.value = ""
         tipoCtd.value = ""
@@ -41,7 +41,7 @@ function filtrarDespesas(){
     let valorMax = parseInt(document.getElementById('valorFiltroMax').value)
 
     if(validarMinMax(valorMin, valorMax)){
-        let despesasFiltradas = arrDespesas.filter((despesa, idx, arr) => {
+        let despesasFiltradas = arrayDespesas.filter((despesa, idx, arr) => {
             if((despesa.tipo === tipoFiltro || tipoFiltro === "todos") && despesa.valor <= valorMax && despesa.valor >= valorMin){
                 return true
             }
