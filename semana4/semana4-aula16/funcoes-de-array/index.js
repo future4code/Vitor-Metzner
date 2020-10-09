@@ -1,4 +1,4 @@
-let arrDespesas = []
+let arrayDespesas = []
 imprimirDespesas(arrayDespesas)
 imprimirExtrato()
 
