@@ -3,8 +3,8 @@ import './App.css';
 import CardGrande from './components/CardGrande/CardGrande';
 import CardPequeno from './components/CardPequeno/CardPequeno';
 import ImagemButton from './components/ImagemButton/ImagemButton';
-import location from './Img/location.png'
-import mail from './Img/mail.png'
+import location from './media/location.png'
+import mail from './media/mail.png'
 
 function App() {
   return (
@@ -13,10 +13,13 @@ function App() {
         <h2>Dados pessoais</h2>
         <CardGrande 
           imagem="" 
-          nome="Vitor de Farias Metzner" 
-          descricao="Gosto muito da minha paixão e habilidades em empregar empresas e
+          nome="Vitor De Farias Metzner" 
+          descricao="Esperando pela insegurança e ao momento difícil que estamos passando, agora é a
+          hora de abraçar um novo desafio ,full time (remoto ou interno), no Brasil, não
+          descartando ofertas em outros países.
+          Gosto muito da minha paixão e habilidades em empregar empresas e
           projetos para ser mais notável. Acredito que posso causar um impacto criando
-          conteúdo inovador, construindo pontes sólidas "
+          conteúdo inovador, construindo pontes sólidas."
         />
         <CardPequeno
           imagem={mail}
@@ -24,7 +27,7 @@ function App() {
         />
         <CardPequeno
           imagem={location}
-          texto="Rua Maria Julia da Luz ,1212"
+          texto="Rua Maria Julia da Luz, 1212"
         />
         <ImagemButton 
           imagem="https://image.flaticon.com/icons/png/512/117/117472.png" 
@@ -37,7 +40,7 @@ function App() {
         <CardGrande 
           imagem="" 
           nome="Massa Viva – Recepcionista" 
-          descricao="Admissão:01/02/2016 ~ Afastamento:01/08/2016       " 
+          descricao="Admissão:01/02/2016 ~ Afastamento:01/08/2016" 
         />
         <CardPequeno
           imagem={location}
@@ -46,20 +49,20 @@ function App() {
         <CardGrande 
           imagem="" 
           nome="Detran – Recepcionista de veículos" 
-          descricao="Admissão:05/03/2018  ~ Afastamento:02/06/2018" 
+          descricao="Admissão:05/03/2018 ~ Afastamento:02/06/2018" 
         />
         <CardPequeno
           imagem={location}
-          texto="São José"
+          texto="São José , SC"
         />
-        <CardGrande 
+         <CardGrande 
           imagem="" 
-          nome="Cobrador de Onibus" 
+          nome="TRANSPORTE  COLETIVO ESTRELA – Cobrador de Ônibus" 
           descricao="Admissão:20/08/2018 ~ Atualmente colocado de licença" 
         />
         <CardPequeno
           imagem={location}
-          texto="São José"
+          texto="São José , SC"
         />
       </div>
 
